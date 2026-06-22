@@ -1,0 +1,11 @@
+Titanic Dataset EDA Summary
+
+The Titanic dataset was analyzed using Python, Pandas, Matplotlib, and Seaborn. The dataset contained passenger information such as age, gender, class, fare, and survival status. Missing values were identified and handled by filling missing ages with the median value, filling missing embarkation values with the mode, and removing the Cabin column due to excessive missing data.
+
+One important finding was that gender had a significant impact on survival. Female passengers had a much higher survival rate than male passengers. This suggests that rescue efforts prioritized women during the disaster.
+
+The second finding was the relationship between passenger class and survival. First-class passengers showed a considerably higher survival rate compared to second and third-class passengers. The correlation heatmap also indicated that passenger class was negatively correlated with survival.
+
+The third finding involved fare distribution. Passengers who paid higher fares generally had better survival outcomes. This indicates that wealthier passengers, who often traveled in higher classes, had greater access to lifeboats and rescue opportunities.
+
+Overall, exploratory data analysis helped uncover meaningful patterns in the Titanic dataset and demonstrated the importance of data cleaning, visualization, and statistical analysis before building machine learning models.
